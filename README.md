@@ -16,7 +16,7 @@ dwm是X下的一个动态窗口管理器。它用平铺的、栈式的和全屏�
 编译
 `make`
 
-
+>centos中若提示：X11/Xlib.h：没有那个文件或目录可使用命令`yum install libX*`安装依赖
 
 ## dwm快捷键
 
