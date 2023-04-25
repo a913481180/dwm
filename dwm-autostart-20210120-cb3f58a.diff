@@ -132,7 +132,7 @@ index 4465af1..2156b49 100644
 +			free(pathpfx);
 +			return;
 +		}
-+   pathpfx = pathpfx_new;
++		pathpfx = pathpfx_new;
 +
 +		if (sprintf(pathpfx, "%s/.%s", home, dwmdir) <= 0) {
 +			free(pathpfx);
